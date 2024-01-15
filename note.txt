@@ -1,0 +1,8 @@
+Socket.IO is composed of two parts:
+ in the server use only npm i socket.io and import it.
+ in the client use <script src="/socket.io/socket.io.js"></script>
+Socket.IO is a library that enables real-time, bidirectional communication between web clients and servers.
+The io object represents the Socket.IO server instance.
+The connection event is triggered when a new client connects.
+The socket object represents the individual client connection.
+Use events to send and receive data between the server and clients.
